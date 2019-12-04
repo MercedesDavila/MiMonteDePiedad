@@ -13,6 +13,7 @@
 .home-logoCredi {
     margin: 1rem;
     margin-bottom: 2rem;   
+    margin-left: 2rem;
 }
 
 .home-option-box {
@@ -146,4 +147,10 @@ table {
     border-collapse: separate;
     border-spacing: 2px;
     
+}
+
+.btn-secondary {
+    color: #fff;
+    /* background-color: #6c757d; */
+    /* border-color: #6c757d; */
 }
