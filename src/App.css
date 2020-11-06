@@ -74,7 +74,7 @@ button {
     
     width: 83vw;
     height: 40px;
-    font-size: 20px;
+    font-size: 15px;
     border:0;
     /* font-weight: 700; */
     border-bottom:  2px solid #9E002F;
@@ -159,18 +159,13 @@ button {
     height: 26vw;
     pointer-events: none;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 30%;
   }
 
   .greeting-login{
      /* position: absolute; */
-     
-     width: 74px;
      height: 26px;
-     left: 133px;
-     top: 92px;
      margin-top: 30px;
-     margin-left: 110px;
      font-family: Roboto Condensed;
      font-style: normal;
      font-weight: bold;
@@ -204,12 +199,12 @@ button {
   border-color: #ca3232;
 }
 
-.inputnombres{
+.inputnombres {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 7px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .inputnombres input {

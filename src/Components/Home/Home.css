@@ -13,14 +13,14 @@
 .home-logoCredi {
     margin: 1rem;
     margin-bottom: 2rem;   
-    margin-left: 2rem;
+    margin-left: 30%;
 }
 
 .home-option-box {
     display: flex;
     justify-content: center;
     width: 18rem;
-    margin-left: 1rem;
+    margin-left: 13%;
 }
 
 .breadcrumb {
@@ -51,6 +51,24 @@
     height: 41px;
 }
 
+.btn-info {
+    color: #fff;
+    background-color: #9E002F;
+    border-color: #9E002F;
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #9E002F;
+    border-color: #9E002F;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #9E002F;
+    border-color: #9E002F;
+}
+
 .btn-options a p {
     text-decoration: none;
     color: #ffff;
@@ -76,10 +94,10 @@
 
 .fas {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
     color: #9E002F;
-    margin: 1rem;
+    margin: 1rem 1rem 1rem -3rem;
     font-size: 2rem;
     padding-right: 2.5rem;
 }
@@ -151,6 +169,6 @@ table {
 
 .btn-secondary {
     color: #fff;
-    /* background-color: #6c757d; */
-    /* border-color: #6c757d; */
+    background-color: white; 
+    border-color: white;
 }
