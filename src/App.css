@@ -1,22 +1,291 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto Condensed", HelveticaNeue, "Helvetica Neue", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  color: #5B534F;
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  font-weight: 700;
+  outline: none;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Roboto Condensed";
+  color: #0e6642;
+}
+
+@media only screen and (max-width: 768px){
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto Condensed";
+  }
+  
+  
+  button {
+    font-weight: 700;
+    outline: none;
+    background-color: transparent;
+    border: transparent;
+    font-family: "Roboto Condensed";
+    color: #0e6642;
+  }
+
+  .login-screen {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #9E002F;
+    
+  }
+  
+  /* Estilos logo */
+  .logo-app {
+    height: 50vw;
+    pointer-events: none;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+  }
+  
+  /* Estilos saludo login */
+  .greeting-login {
+    /* font-weight: 200; */
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  /* Input login */
+  .input-login {
+    
+    width: 83vw;
+    height: 40px;
+    font-size: 20px;
+    border:0;
+    /* font-weight: 700; */
+    border-bottom:  2px solid #9E002F;
+    text-align: left;
+    margin-top: 10px;
+    outline: 0px;
+    color: rgb(0, 112, 112);
+  }
+  /* .input-btn-form::-webkit-input-placeholder {
+    color: white;
+    font-weight: 700;
+  }
+  
+  .input-btn-form:-moz-placeholder {
+    color: white;
+    font-weight: 700;
+  }
+  
+  .input-btn-form::-moz-placeholder {
+    color: white;
+    font-weight: 700;
+  } */
+  
+  /* .input-btn-form:-ms-input-placeholder {
+    color: white;
+    font-weight: 700;
+  }
+   */
+  .input-btn-form:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  /* Botón verde */
+  .btn-green {
+    width: 83vw;
+    height: 51px;
+    margin-top: 38px;
+    background-color: rgba(249, 75, 75, 0.92);
+    margin-bottom: 3vh;
+    color: white;
+    border: transparent;
+    font-size: 21px;
+    outline: 0px;
+    padding: 0px 30px;
+    border-radius: px;
+  }
+
+  .btn-signup{
+    width: 83vw;
+    height: 51px;
+    background-color: #ca3232;
+    margin-bottom: 3vh;
+    color: white;
+    border: transparent;
+    font-size: 21px;
+    outline: 0px;
+    padding: 0px 30px;
+  }
+  
+  .btn-green-add {
+    margin-top: 0px;
+  }
+
+
+
+  h1 {
+    font-size: 13px;
+    color: white;
+
+  }
+
+  .signup-screen {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white;
+  }
+
+  
+  .logo-signup {
+    height: 26vw;
+    pointer-events: none;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .greeting-login{
+     /* position: absolute; */
+     
+     width: 74px;
+     height: 26px;
+     left: 133px;
+     top: 92px;
+     margin-top: 30px;
+     margin-left: 110px;
+     font-family: Roboto Condensed;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 22px;
+     line-height: 26px;
+     color: #9E002F;
+ 
+  }
+
+  .tel-verif{
+    /* font-weight: 200; */
+    color: #9E002F;
+    margin-bottom: 10px;
+    margin-top: 19px;
+  }
+
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
+.btn-info {
+  color: #fff;
+  background-color: #ca3232;
+  border-color: #ca3232;
+}
+
+.inputnombres{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 7px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+.inputnombres input {
+  width: 40%;
+  font-size: 15px;
+  
+}
+
+.input-namelogin {
+    
+  width: 83vw;
+  height: 40px;
+  font-size: 20px;
+  border:0;
+  /* font-weight: 700; */
+  border-bottom:  2px solid #9E002F;
+  text-align: left;
+  margin-top: 10px;
+  outline: 0px;
+  color: #5B534F;
+}
+
+.verification-screen {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  
+}
+
+.verif-text {
+      align-content: center;
+    font-size: 30px;
+    color: #9E002F;
+    margin-top: 55px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.verif-text2 {
+  align-content: center;
+  font-size: 30px;
+  color: #9E002F;
+  margin-top: 30px;
+
+}
+
+.inputnumber{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+.inputnumber input {
+  width: 14%;
+  font-size: 15px;
+  text-align: center;
+  
+}
+
+.input-number {
+    
+  width: 83vw;
+  height: 40px;
+  font-size: 20px;
+  border:0;
+  /* font-weight: 700; */
+  border-bottom:  2px solid #9E002F;
+  text-align: left;
+  margin-top: 10px;
+  outline: 0px;
+  color: rgb(0, 112, 112);
+}
+
 }

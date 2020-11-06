@@ -1,0 +1,156 @@
+.home-box {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-logo {
+    margin: 1rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+.home-logoCredi {
+    margin: 1rem;
+    margin-bottom: 2rem;   
+    margin-left: 2rem;
+}
+
+.home-option-box {
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+    margin-left: 1rem;
+}
+
+.breadcrumb {
+    background-color: #ffff;
+    border-bottom: 2px solid #6E6763;
+    margin-bottom: 5rem;
+}
+
+.breadcrumb-item a {
+    color: #9E002F;
+    font-weight: 520;
+    font-size: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .7rem;
+    content: "";
+}
+
+.btn-options {
+    background-color: #9E002F;
+    border-color: #9E002F;
+    margin-bottom: 5rem;
+    width: 18rem;
+    font-weight: 530;
+    font-size: 18px;
+    height: 41px;
+}
+
+.btn-options a p {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.brand-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.back-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-CrediMonte {
+    color: #9E002F;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.fas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #9E002F;
+    margin: 1rem;
+    font-size: 2rem;
+    padding-right: 2.5rem;
+}
+
+.box-table {
+    margin: 1rem;
+}
+
+.credit-table {
+    color: #5B534F;
+    font-weight: 500;
+    border: solid 1px #5B534F;
+    border-radius: 10px;
+}
+
+.tr-red {
+    border-style: solid;
+    border-bottom-color: #9E002F !important;
+}
+
+thead tr th {
+    padding: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #c02a2a;
+    border-left: 0px;
+}
+
+.num-cred{
+    font-size: 20px;
+    color: #9E002F;
+    vertical-align: bottom;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    /* border-bottom: solid 2px #c02a2a; */
+}
+
+.table thead th {
+    vertical-align: bottom;
+}
+
+.credit-table {
+    /* color: #5B534F; */
+    font-weight: 500;
+   
+}
+
+.credit-table {
+    /* color: #5B534F; */
+    font-weight: 500;
+}
+
+.credit-table {
+    /* color: #5B534F; */
+    font-weight: 500;
+    /* border: solid 1px #5B534F; */
+    border-radius: 10px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    
+}
+
+.btn-secondary {
+    color: #fff;
+    /* background-color: #6c757d; */
+    /* border-color: #6c757d; */
+}

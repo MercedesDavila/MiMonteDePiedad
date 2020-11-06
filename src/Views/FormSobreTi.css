@@ -1,0 +1,82 @@
+
+.sobreti-box {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sobreti-logo {
+    margin: 1rem;
+    margin-left: 7rem;
+}
+
+.title {
+    margin-top: 10%;
+    color: #9E002F;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 18px;
+/* identical to box height, or 82% */
+
+text-align: center;
+letter-spacing: -0.165px;
+}
+
+.input-date,
+.number-input,
+.input-text,
+textarea,
+select {
+    -webkit-appearance: none; -moz-appearance: none;
+    display: block;
+    margin: 0;
+    width: 100%; height: 45px;
+    line-height: 40px; font-size: 17px;
+    border: 1px solid #bbb;
+    font-size: 17px;
+}
+
+.descripcion {
+    -webkit-appearance: none; -moz-appearance: none;
+    display: block;
+    margin: 0;
+    width: 100%; height: 45px;
+    line-height: 40px; font-size: 17px;
+    border: 5px solid #9E002F;
+    font-size: 17px;
+    -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+}
+
+label {
+  margin-top: 0.5rem;
+  color:#000000;
+  font-size: 17px;
+  display: block;
+}
+
+
+.siguiente-btn {
+  margin-top: 3rem;
+  background-color: #9E002F;
+  color:#FFFFFF;
+  -webkit-appearance: none; -moz-appearance: none;
+ display: block;
+ margin: 1.5em 0;
+ font-size: 1em; line-height: 2.5em;
+ font-weight: bold;
+ height: 2.5em; width: 100%;
+ border: 1px solid #bbb;
+ -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+}
+
+.frmSobreTi {
+    margin-top: 2rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.descripcion{
+    width: 2550rem 450rem ;
+
+}
